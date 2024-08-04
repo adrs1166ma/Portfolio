@@ -3,7 +3,22 @@
 {% block content %}
 
     {% load static %}
-    <img src="{% static 'portfolio/profile.jpeg' %}" alt="">
+    <header class="row bg-black">
+        <div class="col-md-4">
+            <img src="{% static 'portfolio/profile.jpeg' %}" alt="Anderson Mancilla">
+        </div>
+        <div class="col-md-8">
+            <h1>I am <strong>Anderson Mancilla</strong></h1>
+            <h3>Iam a Python FullStack Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla, voluptatum ipsum provident delectus laborum similique ipsa atque tempore magnam cupiditate aliquid dignissimos eligendi in error praesentium vero dolore vel ducimus nisi rem! Totam voluptate rerum debitis laudantium error repellendus cumque! Sint labore eveniet quibusdam facilis dolore animi, nostrum incidunt.</p>
+            <a 
+                href="{% static 'portfolio/cv.pdf' %}"
+                class="btn btn-primary btn-lg rounded-0 my-3"
+                >Download CV</a>
+        </div>
+    </header>
+
+
     {% for project in projects %}
         
         <h2>{{project.title}}</h2>
