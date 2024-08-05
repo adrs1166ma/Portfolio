@@ -1,0 +1,73 @@
+{% load static %}
+
+<!-- Avatar Side Block Start -->
+<div id="avatar" class="avatar">
+    <div class="avatar__container d-flex flex-column justify-content-lg-between">
+        <!-- image and logo -->
+        <div class="avatar__block">
+            <div class="avatar__logo d-flex align-items-center">
+                <div class="logo__image">
+                    <!-- Your Logo Here!!! -->
+                </div>
+                <div class="logo__caption">
+                    <p>Anderson<br>Mancilla</p>
+                </div>
+            </div>
+            <!-- img -->
+            <div class="avatar__image">
+                <img 
+                src="{% static 'portfolio/profile.jpeg' %}" 
+                class="img-thumbnail"
+                alt="Anderson Mancilla">
+            </div>
+            <!-- img end -->
+        </div>
+        <!-- data caption #1 -->
+        <div class="avatar__block">
+            <h6>
+                <small class="top">Specialization:</small>
+                UI/UX designer<br>and FullStack developer
+            </h6>
+        </div>
+        <!-- data caption #2 -->
+        <div class="avatar__block">
+            <h6>
+                <small class="top">Based in:</small>
+                Lima, Perú
+            </h6>
+        </div>
+        <!-- socials and CTA button -->
+        <div class="avatar__block">
+            <!-- socials start -->
+            <div class="avatar__socials">
+                <ul class="socials-square d-flex justify-content-between">
+                    <li class="socials-square__item">
+                        <a class="socials-square__link btn" href="https://dribbble.com/" target="_blank"><i class="ph-bold ph-dribbble-logo"></i></a>
+                    </li>
+                    <li class="socials-square__item">
+                        <a class="socials-square__link btn" href="https://www.behance.net/" target="_blank"><i class="ph-bold ph-behance-logo"></i></a>
+                    </li>
+                    <li class="socials-square__item">
+                        <a class="socials-square__link btn" href="https://www.instagram.com/" target="_blank"><i class="ph-bold ph-instagram-logo"></i></a>
+                    </li>
+                    <li class="socials-square__item">
+                        <a class="socials-square__link btn" href="https://www.twitch.tv/" target="_blank"><i class="ph-bold ph-twitch-logo"></i></a>
+                    </li>
+                    <li class="socials-square__item">
+                        <a class="socials-square__link btn" href="https://www.pinterest.com/" target="_blank"><i class="ph-bold ph-pinterest-logo"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- socials end -->
+            <!-- CTA start -->
+            <div class="avatar__btnholder">
+                <a class="btn btn-default btn-fullwidth btn-hover btn-hover-accent" href="#contact" target="_blank">
+                    <span class="btn-caption">Let's Work Together!</span>
+                </a>
+            </div>
+            <!-- CTA end -->
+        </div>
+        <!-- socials and CTA button end -->
+    </div>
+</div>
+<!-- Avatar Side Block End -->

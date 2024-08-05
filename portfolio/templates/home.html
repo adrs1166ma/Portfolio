@@ -3,53 +3,104 @@
 {% block content %}
 
     {% load static %}
-    <header class="row bg-black">
-        <div class="col-md-4">
-            <img 
-            src="{% static 'portfolio/profile.jpeg' %}" 
-            class="img-thumbnail"
-            alt="Anderson Mancilla">
+
+    {% include 'partials/avatar.html' %}
+
+    <!-- Page Content Start -->
+    <div id="content" class="content">
+        <div class="content__wrapper">
+            <!-- Intro Section Start -->
+            {% include 'partials/introSection.html' %}
+            <!-- Intro Section End -->
+
+            <!-- Portfolio Section Start FALTA ❌❌❌-->
+            <section id="portfolio" class="inner inner-first portfolio">
+
+                <!-- Content Block - H2 Section Title Start -->
+                <div class="content__block section-grid-title">
+                    <p class="h2__subtitle animate-in-up">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                        <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                            C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                            C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+                        </svg>
+                        <span>Portfolio</span>
+                    </p>
+                    <h2 class="h2__title animate-in-up">Check out my featured projects</h2>
+                </div>
+                <!-- Content Block - H2 Section Title End -->
+
+                <!-- Content Block - Works Gallery Start -->
+                <div class="content__block grid-block">
+                <div class="container-fluid px-0 inner__gallery">
+                    <div class="row gx-0 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                    <!-- Works Gallery Single Item Start 🖼️ -->
+                    {% for project in projects %}
+                        <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                            <a href="{{project.image.url}}" data-image="{{project.image.url}}" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                                <img src="{{project.image.url}}" class="gallery__image" itemprop="thumbnail" alt="{{project.description}}">
+                            </a>
+                            <figcaption class="gallery__descr" itemprop="caption description">
+                            <h5>{{project.title}}</h5>
+                            <div class="card__tags d-flex flex-wrap">
+                                <span class="rounded-tag opposite">Illustrations</span>
+                                <span class="rounded-tag opposite">3D Render</span>
+                            </div>
+                            <p class="small">{{project.description}}</p>
+                            </figcaption>
+                        </figure>
+                    {% endfor %}
+                    <!-- Works Gallery Single Item End 🖼️ -->
+
+                    </div>
+                </div>
+                </div>
+                <!-- Content Block - Works Gallery End -->
+
+            </section>
+                <!-- Portfolio Section End -->
+            
         </div>
-        <div class="col-md-8 my-auto">
-            <h1>I am <strong>Anderson Mancilla</strong></h1>
-            <h3>Iam a Python FullStack Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla, voluptatum ipsum provident delectus laborum similique ipsa atque tempore magnam cupiditate aliquid dignissimos eligendi in error praesentium vero dolore vel ducimus nisi rem! Totam voluptate rerum debitis laudantium error repellendus cumque! Sint labore eveniet quibusdam facilis dolore animi, nostrum incidunt.</p>
-            <a 
-                href="{% static 'portfolio/cv.pdf' %}"
-                class="btn btn-primary btn-lg rounded-0 my-3"
-                >Download CV</a>
-        </div>
-    </header>
-
-
-    <div class="row my-4 text-center">
+        <!-- wrapper End -->
         
-        <h3>My projects</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
 
-        {% for project in projects %}
+
+
+        <div class="row my-4 text-center">
         
-        <div class="col-md-4 p-4">
-            <div class="card bg-black card-project">
-                <img 
-                src="{{project.image.url}}" 
-                alt="{{project.title}}"
-                class="card-img-top">     
-                <div class="card-body">
-                    <h2>{{project.title}}</h2>
-                    <p>{{project.description}}</p>
-
-                    {% if project.url %}
-                        <a 
-                        href="{{project.url}}"
-                        class="btn btn-light rounded-0 btn-sm"
-                        target="_blank"
-                        >{{project.url}}</a>
-                    {% endif %}
+            <h3>My projects</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+    
+            {% for project in projects %}
+            
+            <div class="col-md-4 p-4">
+                <div class="card bg-black card-project">
+                    
+                    <img 
+                    src="{{project.image.url}}" 
+                    alt="{{project.title}}"
+                    class="card-img-top">
+    
+                    <div class="card-body text-light">
+                        <h2>{{project.title}}</h2>
+                        <p>{{project.description}}</p>
+    
+                        {% if project.url %}
+                            <a 
+                            href="{{project.url}}"
+                            class="btn btn-light rounded-0 btn-sm"
+                            target="_blank"
+                            >{{project.url}}</a>
+                        {% endif %}
+                    </div>
+    
                 </div>
             </div>
+    
+            {% endfor %}
         </div>
-
-        {% endfor %}
-    </div>
+    </div> 
+    
+    
 {% endblock  %}
