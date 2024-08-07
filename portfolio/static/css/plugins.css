@@ -1,8 +1,13 @@
 /*! ------------------------------------------------
- * Project Name: Anderson - Personal Portfolio & Resume
- * Tags: resume, portfolio, personal page, cv, responsive, html5, css3, creative, clean 
+ * Project Name: Name: Braxton - Personal Portfolio & Resume HTML Template
+ * Project Description: Show yourself brightly with Braxton - unique and creative portfolio and resume template!
+ * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean 
+ * Version: 1.0.0
+ * Build Date: March 2024
+ * Last Update: March 2024
  * This product is available exclusively on Themeforest
- * Author: Anderson Mancilla Aquino
+ * Author: mix_design
+ * Author URI: https://themeforest.net/user/mix_design */
 /*! File name: plugins.css
  * ------------------------------------------------
  *
@@ -166,10 +171,10 @@ table {
 /* Bootstrap Grid Component Start */
 /* ------------------------------------------------*/
 /*!
-   * Bootstrap Grid v5.3.2 (https://getbootstrap.com/)
-   * Copyright 2011-2023 The Bootstrap Authors
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-   */
+ * Bootstrap Grid v5.3.2 (https://getbootstrap.com/)
+ * Copyright 2011-2023 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 .container,
 .container-fluid,
 .container-xxl,
@@ -5336,6 +5341,7 @@ table {
     display: none !important;
   }
 }
+
 /*!
  * Bootstrap Utilities v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -49564,10 +49570,10 @@ table {
 /* Fontawesome Start */
 /* ------------------------------------------------*/
 /*!
-   * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
-   * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-   * Copyright 2023 Fonticons, Inc.
-   */
+ * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2023 Fonticons, Inc.
+ */
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900);
@@ -50543,7 +50549,7 @@ table {
 }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-  readers do not read off random characters that represent icons */
+readers do not read off random characters that represent icons */
 .fa-0::before {
   content: "\30 ";
 }
@@ -58371,10 +58377,10 @@ table {
 }
 
 /*!
-   * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
-   * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-   * Copyright 2023 Fonticons, Inc.
-   */
+ * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2023 Fonticons, Inc.
+ */
 .fa.fa-glass:before {
   content: "\f000";
 }
@@ -61190,10 +61196,10 @@ table {
 }
 
 /*!
-   * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
-   * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-   * Copyright 2023 Fonticons, Inc.
-   */
+ * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2023 Fonticons, Inc.
+ */
 :root,
 :host {
   --fa-style-family-classic: "Font Awesome 6 Free";
@@ -61214,10 +61220,10 @@ table {
 }
 
 /*!
-   * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
-   * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-   * Copyright 2023 Fonticons, Inc.
-   */
+ * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2023 Fonticons, Inc.
+ */
 :root,
 :host {
   --fa-style-family-classic: "Font Awesome 6 Free";
@@ -61238,10 +61244,10 @@ table {
 }
 
 /*!
-   * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
-   * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-   * Copyright 2023 Fonticons, Inc.
-   */
+ * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2023 Fonticons, Inc.
+ */
 :root,
 :host {
   --fa-style-family-brands: "Font Awesome 6 Brands";
@@ -63340,16 +63346,16 @@ table {
 /* Swiper Slider Start */
 /* ------------------------------------------------*/
 /**
-   * Swiper 11.0.5
-   * Most modern mobile touch slider and framework with hardware accelerated transitions
-   * https://swiperjs.com
-   *
-   * Copyright 2014-2023 Vladimir Kharlampidi
-   *
-   * Released under the MIT License
-   *
-   * Released on: November 22, 2023
-   */
+ * Swiper 11.0.5
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * https://swiperjs.com
+ *
+ * Copyright 2014-2023 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: November 22, 2023
+ */
 /* FONT_START */
 @font-face {
   font-family: "swiper-icons";
@@ -63361,9 +63367,9 @@ table {
 :root {
   --swiper-theme-color: #007aff;
   /*
-    --swiper-preloader-color: var(--swiper-theme-color);
-    --swiper-wrapper-transition-timing-function: initial;
-    */
+  --swiper-preloader-color: var(--swiper-theme-color);
+  --swiper-wrapper-transition-timing-function: initial;
+  */
 }
 
 :host {
@@ -63798,10 +63804,10 @@ table {
 :root {
   --swiper-navigation-size: 44px;
   /*
-    --swiper-navigation-top-offset: 50%;
-    --swiper-navigation-sides-offset: 10px;
-    --swiper-navigation-color: var(--swiper-theme-color);
-    */
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: var(--swiper-theme-color);
+  */
 }
 
 .swiper-button-prev,
@@ -63915,24 +63921,24 @@ table {
 /* Navigation font end */
 :root {
   /*
-    --swiper-pagination-color: var(--swiper-theme-color);
-    --swiper-pagination-left: auto;
-    --swiper-pagination-right: 8px;
-    --swiper-pagination-bottom: 8px;
-    --swiper-pagination-top: auto;
-    --swiper-pagination-fraction-color: inherit;
-    --swiper-pagination-progressbar-bg-color: rgba(0,0,0,0.25);
-    --swiper-pagination-progressbar-size: 4px;
-    --swiper-pagination-bullet-size: 8px;
-    --swiper-pagination-bullet-width: 8px;
-    --swiper-pagination-bullet-height: 8px;
-    --swiper-pagination-bullet-border-radius: 50%;
-    --swiper-pagination-bullet-inactive-color: #000;
-    --swiper-pagination-bullet-inactive-opacity: 0.2;
-    --swiper-pagination-bullet-opacity: 1;
-    --swiper-pagination-bullet-horizontal-gap: 4px;
-    --swiper-pagination-bullet-vertical-gap: 6px;
-    */
+  --swiper-pagination-color: var(--swiper-theme-color);
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0,0,0,0.25);
+  --swiper-pagination-progressbar-size: 4px;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-border-radius: 50%;
+  --swiper-pagination-bullet-inactive-color: #000;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+  */
 }
 
 .swiper-pagination {
@@ -64212,16 +64218,16 @@ button.swiper-pagination-bullet {
 
 :root {
   /*
-    --swiper-scrollbar-border-radius: 10px;
-    --swiper-scrollbar-top: auto;
-    --swiper-scrollbar-bottom: 4px;
-    --swiper-scrollbar-left: auto;
-    --swiper-scrollbar-right: 4px;
-    --swiper-scrollbar-sides-offset: 1%;
-    --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);
-    --swiper-scrollbar-drag-bg-color: rgba(0, 0, 0, 0.5);
-    --swiper-scrollbar-size: 4px;
-    */
+  --swiper-scrollbar-border-radius: 10px;
+  --swiper-scrollbar-top: auto;
+  --swiper-scrollbar-bottom: 4px;
+  --swiper-scrollbar-left: auto;
+  --swiper-scrollbar-right: 4px;
+  --swiper-scrollbar-sides-offset: 1%;
+  --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);
+  --swiper-scrollbar-drag-bg-color: rgba(0, 0, 0, 0.5);
+  --swiper-scrollbar-size: 4px;
+  */
 }
 
 .swiper-scrollbar {
@@ -64524,8 +64530,8 @@ button.swiper-pagination-bullet {
 /* ------------------------------------------------*/
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
 /*
-      Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
-  */
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
+*/
 /* pswp = photoswipe */
 .pswp {
   display: none;
@@ -64589,9 +64595,9 @@ button.swiper-pagination-bullet {
 }
 
 /*
-      Background is added as a separate element.
-      As animating opacity is much faster than animating rgba() background-color.
-  */
+	Background is added as a separate element.
+	As animating opacity is much faster than animating rgba() background-color.
+*/
 .pswp__bg {
   position: absolute;
   left: 0;
@@ -64694,17 +64700,17 @@ button.swiper-pagination-bullet {
 }
 
 /*
-      stretched thumbnail or div placeholder element (see below)
-      style is added to avoid flickering in webkit/blink when layers overlap
-  */
+	stretched thumbnail or div placeholder element (see below)
+	style is added to avoid flickering in webkit/blink when layers overlap
+*/
 .pswp__img--placeholder {
   -webkit-backface-visibility: hidden;
 }
 
 /*
-      div element that matches size of large image
-      large image loads on top of it
-  */
+	div element that matches size of large image
+	large image loads on top of it
+*/
 .pswp__img--placeholder--blank {
   background: #222;
 }
@@ -64717,9 +64723,9 @@ button.swiper-pagination-bullet {
 }
 
 /*
-      Error message appears when image is not loaded
-      (JS option errorMsg controls markup)
-  */
+	Error message appears when image is not loaded
+	(JS option errorMsg controls markup)
+*/
 .pswp__error-msg {
   position: absolute;
   left: 0;
@@ -64739,22 +64745,22 @@ button.swiper-pagination-bullet {
 
 /*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
 /*
-  
-      Contents:
-  
-      1. Buttons
-      2. Share modal and links
-      3. Index indicator ("1 of X" counter)
-      4. Caption
-      5. Loading indicator
-      6. Additional styles (root element, top bar, idle state, hidden state, etc.)
-  
-  */
+
+	Contents:
+
+	1. Buttons
+	2. Share modal and links
+	3. Index indicator ("1 of X" counter)
+	4. Caption
+	5. Loading indicator
+	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
+
+*/
 /*
-  
-      1. Buttons
-  
-   */
+
+	1. Buttons
+
+ */
 /* <button> css reset */
 .pswp__button {
   width: 44px;
@@ -64862,9 +64868,9 @@ button.swiper-pagination-bullet {
 }
 
 /*
-      Arrow buttons hit area
-      (icon is added to :before pseudo-element)
-  */
+	Arrow buttons hit area
+	(icon is added to :before pseudo-element)
+*/
 .pswp__button--arrow--left,
 .pswp__button--arrow--right {
   background: none;
@@ -64904,10 +64910,10 @@ button.swiper-pagination-bullet {
 }
 
 /*
-  
-      2. Share modal/popup and links
-  
-   */
+
+	2. Share modal/popup and links
+
+ */
 .pswp__counter,
 .pswp__share-modal {
   -webkit-user-select: none;
@@ -65037,10 +65043,10 @@ a.pswp__share--download:hover {
 }
 
 /*
-  
-      3. Index indicator ("1 of X" counter)
-  
-   */
+
+	3. Index indicator ("1 of X" counter)
+
+ */
 .pswp__counter {
   position: absolute;
   left: 0;
@@ -65054,10 +65060,10 @@ a.pswp__share--download:hover {
 }
 
 /*
-  
-      4. Caption
-  
-   */
+
+	4. Caption
+
+ */
 .pswp__caption {
   position: absolute;
   left: 0;
@@ -65090,12 +65096,12 @@ a.pswp__share--download:hover {
 }
 
 /*
-  
-      5. Loading indicator (preloader)
-  
-      You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
-  
-   */
+
+	5. Loading indicator (preloader)
+
+	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
+
+ */
 .pswp__preloader {
   width: 44px;
   height: 44px;
@@ -65150,9 +65156,9 @@ a.pswp__share--download:hover {
 }
 .pswp--css_animation .pswp__preloader__cut {
   /* 
-        The idea of animating inner circle is based on Polymer ("material") loading indicator 
-         by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
-    */
+  	The idea of animating inner circle is based on Polymer ("material") loading indicator 
+  	 by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
+  */
   position: relative;
   width: 7px;
   height: 14px;
@@ -65263,10 +65269,10 @@ a.pswp__share--download:hover {
   }
 }
 /*
-  
-      6. Additional styles
-  
-   */
+
+	6. Additional styles
+
+ */
 /* root element of UI */
 .pswp__ui {
   -webkit-font-smoothing: auto;
@@ -65322,9 +65328,9 @@ a.pswp__share--download:hover {
 }
 
 /*
-      pswp__ui--hidden class is added when controls are hidden
-      e.g. when user taps to toggle visibility of controls
-  */
+	pswp__ui--hidden class is added when controls are hidden
+	e.g. when user taps to toggle visibility of controls
+*/
 .pswp__ui--hidden .pswp__top-bar,
 .pswp__ui--hidden .pswp__caption,
 .pswp__ui--hidden .pswp__button--arrow--left,

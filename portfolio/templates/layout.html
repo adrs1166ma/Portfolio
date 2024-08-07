@@ -11,8 +11,8 @@
     <link rel="icon" href="{% static 'img/favicon/icon.svg' %}" type="image/svg+xml">
     <!-- Template Favicon & Icons End -->
 
-    <link rel="stylesheet" href="{% static 'plugins.css' %}">
-    <link rel="stylesheet" href="{% static 'main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/plugins.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
 
 </head>
 <body class="text-light">
@@ -22,6 +22,8 @@
         {% block content %}
         {% endblock %}
     </div>
-
+    <script src="{% static 'js/libs.min.js' %}"></script>
+    <script src="{% static 'js/app.js' %}"></script>
+    <script src="{% static 'js/gallery.js' %}"></script>
 </body>
 </html>
