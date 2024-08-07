@@ -1,29 +1,60 @@
 {% load static %}
 
+
 <!-- Header Start -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
-  <div class="container">      
-    <a class="menu__link btn navbar-brand fw-bold fst-italic" href="/">AM</a>
-      
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      
-    <div class="collapse navbar-collapse" id="navbarNav">
-        
-      <ul class="navbar-nav ms-auto">          
-        <li class="nav-item">
-          <a class="menu__link btn nav-link" href="{% url 'blog:posts' %}">Blog</a>
+<header id="header" class="header d-flex justify-content-between">
+
+  <!-- Navigation Menu Start -->
+  <div class="header__navigation">
+    <nav id="menu" class="menu">
+      <ul class="menu__list d-flex justify-content-start">
+        <li class="menu__item">
+          <a class="menu__link btn" href="/">
+            <span class="menu__caption">AM</span>
+            <i class="ph-bold ph-house-simple"></i>
+          </a>
         </li>
-        <li class="nav-item d-flex align-items-center">
-          <a 
-          class="menu__link btn btn-primary btn-sm" 
-          href="{% static 'portfolio/cv.pdf' %}"
-          target="_blank"
-          >Download CV</a>
+        <li class="menu__item">
+          <a class="menu__link btn" href="#portfolio">
+            <span class="menu__caption">Portfolio</span>
+            <i class="ph-bold ph-squares-four"></i>
+          </a>
         </li>
-          
+        <li class="menu__item">
+          <a class="menu__link btn" href="#about">
+            <span class="menu__caption">About Me</span>
+            <i class="ph-bold ph-user"></i>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link btn" href="#resume">
+            <span class="menu__caption">Resume</span>
+            <i class="ph-bold ph-article"></i>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link btn" href="#contact">
+            <span class="menu__caption">Contact</span>
+            <i class="ph-bold ph-envelope"></i>
+          </a>
+        </li>
       </ul>
-    </div>
+    </nav>
   </div>
-</nav>
+  <!-- Navigation Menu End -->
+
+  <!-- Header Controls Start -->
+  <div class="header__controls d-flex justify-content-end">
+    <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch" aria-label="light/dark mode" aria-checked="true"></button>
+    <a href="{% url 'blog:posts' %}" class="header__trigger btn">
+      <span class="trigger__caption">Blog</span>
+    </a>
+    <a id="notify-trigger" class="header__trigger btn" href="mailto:adrsma16@gmail.com?subject=Message%20from%20your%20site&body=Hola,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios.">
+      <span class="trigger__caption">Let's Talk</span>
+      <i class="ph-bold ph-chat-dots"></i>
+    </a>
+  </div>
+  <!-- Header Controls End -->
+
+</header>
+<!-- Header End -->
