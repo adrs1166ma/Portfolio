@@ -39,7 +39,7 @@
                     {% for project in projects %}
                         <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                             <a href="{{project.image.url}}" data-image="{{project.image.url}}" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
-                                <img src="{{project.image.url}}"  itemprop="thumbnail" alt="{{project.description}}">
+                                <img src="{{project.image.url}}" class="gallery__image" itemprop="thumbnail" alt="{{project.description}}">
                                 <!-- class="gallery__image" -->
                             </a>
                             <figcaption class="gallery__descr" itemprop="caption description">
@@ -100,8 +100,18 @@
             </div>
     
             {% endfor %}
+
+            {% include 'partials/contactSection.html' %}
+
         </div>
     </div> 
+    <!-- Page Content End -->
+
+
+
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    {% include 'partials/footer.html' %}
     
     
 {% endblock  %}
