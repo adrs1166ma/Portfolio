@@ -1,8 +1,9 @@
 db.sqlite3
 venv/
 *.pyc
-__pycache__/
 *.log
+__pycache__/
 local_settings.py
 media/
 prueba1/
+**/migrations/*
