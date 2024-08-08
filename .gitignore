@@ -6,4 +6,6 @@ __pycache__/
 local_settings.py
 media/
 prueba1/
-migrations/*
+# Ignorar migraciones, excepto __init__.py
+**/migrations/*
+!**/migrations/__init__.py
