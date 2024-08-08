@@ -6,4 +6,4 @@ __pycache__/
 local_settings.py
 media/
 prueba1/
-**/migrations/*
+migrations/*
