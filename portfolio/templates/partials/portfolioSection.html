@@ -30,12 +30,14 @@
                     <!-- class="gallery__image" -->
                 </a>
                 <figcaption class="gallery__descr" itemprop="caption description">
-                <h5>{{project.title}}</h5>
-                <div class="card__tags d-flex flex-wrap">
-                    <span class="rounded-tag opposite">Illustrations</span>
-                    <span class="rounded-tag opposite">3D Render</span>
-                </div>
-                <p class="small">{{project.description}}</p>
+                    <h5>{{project.title}}</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                        <span class="rounded-tag opposite">Illustrations</span>
+                        <span class="rounded-tag opposite">3D Render</span>
+                    </div>
+                    <p class="small">
+                        {{project.description}}
+                    </p>
                 </figcaption>
             </figure>
         {% endfor %}
